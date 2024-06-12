@@ -1,0 +1,1 @@
+// Idea taken form here: http://www.webdesignerdepot.com/2014/05/how-to-create-a-scrollable-splash-screen-with-css3-and-jquery/

@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+img {
+	width: 100%;
+}
+
+.background
+{
+  height: 896px;
+  width: 100%;
+  position: relative;
+}
+
+
+#header
+{
+  height: 60px;
+  width: 100%;
+  background-color: #BDBDBD;
+  font-family: 'Poiret one', cursive;
+  font-size: 20px;
+  position: fixed;
+  z-index: 999;
+  border-radius: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+#header a
+{
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+#header img
+{
+  
+  height:50px;
+  width: 70px;
+  float: left;
+}
+#header a:hover
+{
+  transform: scale(1.4,1.4);
+  text-decoration: overline;
+  color: white;
+}
+
+.container
+{
+  height: 1800px;
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+
+.small
+{
+  height: 550px;
+  width: 420px;
+  position: relative;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: rgb(133 135 211 / 7%) 11px 14px 27px -5px, rgb(101 62 179 / 30%) 0px 8px 16px -8px;
+ }
+
+.small:hover
+{
+  transform: scale(1.03, 1.03);
+  color: black;
+  
+}
+.lightbox
+{
+
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 1920px;
+  height: 1080px;
+  background: rgb(0 0 0 / 90%);
+}
+
+.lightbox-img {
+  width: 750px;
+}
+
+.lightbox-titletext {
+  font-size: 26px;
+  font-family: franklin;
+  text-transform: inherit;
+  color: darkgray;
+  width: 885px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.lightbox-text {
+  font-size: 22px;
+  font-family: franklin;
+  text-transform: inherit;
+  color: darkgray;
+  width: 885px;
+}
+
+
+/* shop */
+
+.lightbox-container {
+	display: flex;
+}
+
+.lightbox-qr-img {
+	width: 350px;
+}
+
+.lightbox-qr-text {
+	color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+	font-family: franklin;
+}
+
+.lightbox-information {
+	text-align: left;
+	width: 690px;
+	margin-left: 50px;
+}
+
+.lightbox-price {
+	text-align: left;
+	font-size: 50px;
+	color: #94E1FF;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	font-family: roboto;
+}
+
+.lightbox-title {
+	text-align: left;
+	font-size: 50px;
+	color: white;
+	font-family: above-title;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	line-height: initial;
+}
+
+.lightbox-text1 {
+	text-align: justify;
+	font-size: 24px;
+	font-family: franklin;
+	text-transform: inherit;
+	color: darkgray;
+	width: 665px;
+    margin: 0;
+}
+
+
+
+
+a div
+{
+ position: relative;
+ margin: auto auto;
+  text-align: center;
+}
+.lightbox:target
+{
+display: flex;
+}
+.container a
+{
+  text-decoration: none;
+}
+
+p
+{
+  font-size: 50px;
+  color: white;
+  font-family: above-title;
+  text-transform: capitalize;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+
+#footer
+{
+  height: 30px;
+  width: 100%;
+  background-color: #BDBDBD;
+  clear:both;
+  color: black;
+  font-family: 'Poiret one';
+  text-align: center;
+  vertical-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+ }
